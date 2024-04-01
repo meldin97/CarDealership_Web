@@ -1,0 +1,112 @@
+
+
+<section class="vh-100">
+    <div class="container-fluid h-custom">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-md-9 col-lg-6 col-xl-5">
+          <img src="assets/img/vecteezy_cloud-computing-modern-flat-concept-for-web-banner-design_5879539.jpg"
+            class="img-fluid" alt="Sample image">
+        </div>
+        <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+
+          <form id="registerForm" name="registerForm" method="post">
+            <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
+              <p class="lead fw-normal mb-0 me-3">Registruj se </p>
+            </div>
+  
+            
+            <div class="form-outline mb-4">
+              <input 
+              type="text" 
+              id="first_name" 
+              name="first_name"
+              class="form-control form-control-lg"
+              placeholder="Ime " 
+              />
+            </div>
+
+            <div class="form-outline mb-4">
+              <input 
+              type="text" 
+              id="last_name" 
+              name="last_name"
+              class="form-control form-control-lg"
+              placeholder="Prezime " 
+              />
+            </div>
+
+            <div class="form-outline mb-4">
+              <input 
+              type="text" 
+              id="username" 
+              name="username"
+              class="form-control form-control-lg"
+              placeholder=Username " 
+              />
+            </div>
+
+            <div class="form-outline mb-4">
+              <input 
+              type="email" 
+              id="email" 
+              name="email"
+              class="form-control form-control-lg"
+              placeholder="Email adresa " 
+              />
+            </div>
+  
+          
+            <div class="form-outline mb-3">
+              <input 
+              type="password" 
+              id="password" 
+              name="password"
+              class="form-control form-control-lg"
+              placeholder="Sifra" 
+              />
+            </div>
+
+            <div class="form-outline mb-3">
+              <input 
+              type="password" 
+              id="repeat_password" 
+              name="repeat_password"
+              class="form-control form-control-lg"
+              placeholder="Ponovi sifru" 
+              />
+            </div>
+  
+            <div class="text-center text-lg-start mt-4 pt-2">
+              <button type="submit" class="btn btn-primary btn-lg"
+                style="padding-left: 2.5rem; padding-right: 2.5rem;">Registruj se</button>
+              
+            </div>
+  
+          </form>
+
+          
+
+        </div>
+      </div>
+    </div>
+    
+   
+  </section>
+
+  <div class="mt-5">
+    <table id="usersTable" class="table table-striped">
+      <thead>
+        <th>ID</th>
+        <th>Ime</th>
+        <th>Prezime</th>
+        <th>Username</th>
+        <th>Email</th>
+        <th>Sifra</th>
+        <th>Ponovljena sifra</th>
+      </thead>
+    </table>
+  </div>
+  <script src="assets/js/jquery.blockUI.js"></script>
+  <script src="assets/js/jquery.validate.min.js"></script>
+  <script src="assets/js/forms.js"></script>
+  <script src="https://cdn.datatables.net/v/bs5/dt-2.0.3/datatables.min.js"></script>
